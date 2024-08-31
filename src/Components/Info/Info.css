@@ -1,0 +1,74 @@
+.Info {
+  margin-top: 50px;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.InfoChild {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FirstStop,
+.SecondStop {
+  gap: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FirstStop h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.End {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.End p {
+  letter-spacing: 0.1em;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: rgb(212, 182, 137);
+}
+.End span {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.time {
+  letter-spacing: 0.1em;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: rgb(212, 182, 137);
+}
+
+.name {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.location {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.locImg {
+  width: 420px;
+  height: 380px;
+}
+button {
+  padding: 15px;
+  border: 1px solid rgb(212, 182, 137);
+  color: rgb(212, 182, 137);
+  border-radius: 50px;
+}

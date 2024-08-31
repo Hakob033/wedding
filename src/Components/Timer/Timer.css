@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.timer img {
+  filter: brightness(0.7);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.timer {
+  margin-top: 80px;
+  height: 100vh;
+  max-width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerDiv {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.time-section {
+  text-align: center;
+}
+
+.time {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 1.2em;
+  margin-top: 5px;
+  display: block;
+}
