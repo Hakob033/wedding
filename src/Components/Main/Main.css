@@ -27,3 +27,18 @@
   height: 500px;
   width: 49.5%;
 }
+@media (max-width: 700px) {
+  .MainChild img {
+    height: 350px;
+  }
+}
+@media (max-width: 420px) {
+  .MainChild img {
+    height: 260px;
+  }
+}
+@media (max-width: 380px) {
+  .MainChild img {
+    height: 200px;
+  }
+}

@@ -21,7 +21,6 @@
 }
 
 .timerDiv {
-  position: relative;
   z-index: 2;
   text-align: center;
   color: white;
@@ -30,9 +29,10 @@
 }
 
 .countdown {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
-  gap: 40px;
+  gap: 10px;
 }
 
 .time-section {
@@ -40,7 +40,7 @@
 }
 
 .time {
-  font-size: 3em;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -48,4 +48,9 @@
   font-size: 1.2em;
   margin-top: 5px;
   display: block;
+}
+@media (max-width: 425px) {
+  .timerDiv {
+    padding: 10;
+  }
 }

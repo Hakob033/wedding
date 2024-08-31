@@ -54,4 +54,17 @@
   letter-spacing: 0.1em;
   font-family: header;
   color: white;
+  text-align: center;
+}
+
+@media (max-width: 355px) {
+  .headerDiv h1 {
+    width: 299px;
+  }
+  .headerDiv p {
+    max-width: 299px;
+  }
+  .headerDiv span {
+    width: 299px;
+  }
 }
