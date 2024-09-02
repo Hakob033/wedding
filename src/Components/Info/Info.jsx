@@ -23,10 +23,8 @@ export default function Info(params) {
           </div>
           <div className="SecondStop">
             <span className="time">17:30</span>
-            <p className="name">«Villa Hills» հանդիսությունների սրահ</p>
-            <p className="location">
-              Հասցե՝ Կոտայքի մարզ, գ․ Պտղնի 1-ին թ․, 35
-            </p>
+            <p className="name">«Vahagn Hall» հանդիսությունների սրահ</p>
+            <p className="location">Հասցե՝ Այգավան, Թումանյան 29 </p>
             <img src={hall} alt="" className="locImg" />
             <a
               href="https://maps.app.goo.gl/mFbg6odZ43BmnLuJ8"

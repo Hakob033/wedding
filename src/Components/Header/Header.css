@@ -6,6 +6,10 @@
   font-family: header;
   src: url("../../../public/CosiArm.ttf");
 }
+@font-face {
+  font-family: main;
+  src: url("../../../public/ArmCoronetU.ttf");
+}
 
 .back {
   filter: brightness(0.7);
@@ -43,7 +47,7 @@
   text-align: center;
 }
 .headerDiv p {
-  font-family: cursive;
+  font-family: main;
   font-size: 30px;
   line-height: 1.75rem;
   max-width: 28rem;
@@ -69,5 +73,19 @@
   }
   .headerDiv span {
     width: 299px;
+  }
+}
+@media (max-width: 455px) {
+  .headerDiv span {
+    font-size: 1.5rem;
+  }
+  .headerDiv p {
+    font-size: 22px;
+  }
+  .headerDiv h1 {
+    font-size: 28px;
+  }
+  .flover {
+    height: 70px;
   }
 }

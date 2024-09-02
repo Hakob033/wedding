@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import BackImg from "../../assets/mainImg.jpg";
+import Flover from "../../assets/flover.svg";
 import "./Timer.css";
 
 export default function Timer() {
@@ -35,30 +36,36 @@ export default function Timer() {
 
     const intervalId = setInterval(countdown, 1000);
 
-    // Clean up the interval on component unmount
     return () => clearInterval(intervalId);
   }, []);
 
   return (
     <div className="timer">
-      <img src={BackImg} alt="Background" />
-      <div className="timerDiv">
-        <div className="countdown">
-          <div className="time-section">
-            <span className="time">{timeLeft.days}</span>
-            <span className="label">Օր</span>
-          </div>
-          <div className="time-section">
-            <span className="time">{timeLeft.hours}</span>
-            <span className="label">Ժամ</span>
-          </div>
-          <div className="time-section">
-            <span className="time">{timeLeft.minutes}</span>
-            <span className="label">Րոպե</span>
-          </div>
-          <div className="time-section">
-            <span className="time">{timeLeft.seconds}</span>
-            <span className="label">Վայրկյան</span>
+      <img className="backImg" src={BackImg} alt="Background" />
+      <div className="some">
+        <span className="titlle">Սիրով կսպասենք Ձեզ</span>
+        <img className="flower2" src={Flover} alt="" />
+      </div>
+      <div className="any">
+        <p>հարսանիքին մնացել է</p>
+        <div className="timerDiv">
+          <div className="countdown">
+            <div className="time-section">
+              <span className="time">{timeLeft.days}</span>
+              <span className="label">Օր</span>
+            </div>
+            <div className="time-section">
+              <span className="time">{timeLeft.hours}</span>
+              <span className="label">Ժամ</span>
+            </div>
+            <div className="time-section">
+              <span className="time">{timeLeft.minutes}</span>
+              <span className="label">Րոպե</span>
+            </div>
+            <div className="time-section">
+              <span className="time">{timeLeft.seconds}</span>
+              <span className="label">Վայրկյան</span>
+            </div>
           </div>
         </div>
       </div>
