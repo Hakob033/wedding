@@ -11,7 +11,7 @@ export default function Timer() {
   });
 
   useEffect(() => {
-    const targetDate = new Date("September 25, 2024 00:00:00").getTime();
+    const targetDate = new Date("September 27, 2024 00:00:00").getTime();
 
     const countdown = () => {
       const now = new Date().getTime();

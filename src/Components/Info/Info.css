@@ -67,6 +67,7 @@
   height: 380px;
 }
 button {
+  cursor: pointer;
   padding: 15px;
   border: 1px solid rgb(212, 182, 137);
   color: rgb(212, 182, 137);
