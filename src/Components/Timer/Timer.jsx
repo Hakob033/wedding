@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import BackImg from "../../assets/mainImg.jpg";
+import BackImg from "../../assets/mainImg2.jpg";
 import Flover from "../../assets/flover.svg";
 import "./Timer.css";
 
@@ -12,7 +12,7 @@ export default function Timer() {
   });
 
   useEffect(() => {
-    const targetDate = new Date("September 27, 2024 00:00:00").getTime();
+    const targetDate = new Date("September 29, 2024 00:00:00").getTime();
 
     const countdown = () => {
       const now = new Date().getTime();
