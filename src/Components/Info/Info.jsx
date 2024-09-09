@@ -9,7 +9,7 @@ export default function Info(params) {
         <div className="InfoChild">
           <div className="FirstStop">
             <h2>Օրվա ծրագիր</h2>
-            <span className="time">15:00</span>
+            <span className="time2">15:00</span>
             <p className="name">Սուրբ Հովհաննես եկեղեցի</p>
             <p className="location">Հասցե՝ Արտաշատ, Երևանյան 2</p>
             <img src={charch} alt="" className="locImg" />
@@ -22,7 +22,7 @@ export default function Info(params) {
             </a>
           </div>
           <div className="SecondStop">
-            <span className="time">17:30</span>
+            <span className="time2">17:30</span>
             <p className="name">«Vahagn Hall» հանդիսությունների սրահ</p>
             <p className="location">Հասցե՝ Այգավան, Թումանյան 29 </p>
             <img src={hall} alt="" className="locImg" />

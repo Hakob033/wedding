@@ -43,11 +43,11 @@ export default function Timer() {
     <div className="timer">
       <img className="backImg" src={BackImg} alt="Background" />
       <div className="some">
-        <span className="titlle">Սիրով կսպասենք Ձեզ</span>
         <img className="flower2" src={Flover} alt="" />
+        <span className="titlle">Սիրով կսպասենք Ձեզ</span>
       </div>
       <div className="any">
-        <p>հարսանիքին մնացել է</p>
+        <p>Հարսանիքին մնացել է</p>
         <div className="timerDiv">
           <div className="countdown">
             <div className="time-section">
